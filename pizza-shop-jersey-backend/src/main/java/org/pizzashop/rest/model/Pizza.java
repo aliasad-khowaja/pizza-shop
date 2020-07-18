@@ -2,7 +2,7 @@ package org.pizzashop.rest.model;
 
 public class Pizza {
 
-    private Long id;
+    private long id;
     private String name;
     private String description;
     private Double price;
@@ -10,18 +10,18 @@ public class Pizza {
     public Pizza() {
     }
 
-    public Pizza(Long id, String name, String description, Double price) {
+    public Pizza(long id, String name, String description, Double price) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.price = price;
     }
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
