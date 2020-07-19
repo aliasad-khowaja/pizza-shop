@@ -1,14 +1,18 @@
 package org.pizzashop.rest.resource;
 
+import io.swagger.annotations.Api;
 import org.pizzashop.rest.model.Pizza;
 import org.pizzashop.rest.service.PizzaService;
 
 import javax.inject.Singleton;
 import javax.ws.rs.*;
-import javax.ws.rs.core.*;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.UriInfo;
 import java.net.URI;
-import java.util.List;
 
+@Api("Pizza Resource")
 @Path("pizzas")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
