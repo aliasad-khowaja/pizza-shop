@@ -18,6 +18,7 @@
 
     <mappers>
         <mapper class="org.pizzashop.rest.mapper.PizzaMapper" />
+        <mapper class="org.pizzashop.rest.mapper.OrderMapper" />
     </mappers>
 
 </configuration>
